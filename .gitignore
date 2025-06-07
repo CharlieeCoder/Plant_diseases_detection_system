@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+tensorflow_env/
+venv/
+ENV/
+
+# Large files
+model_checkpoint.keras
+*.h5
+*.keras
+debug_images/*.npy
+
+# IDE
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+training_log.csv
+
+# Dependencies
+tensorflow_env/
+Lib/
